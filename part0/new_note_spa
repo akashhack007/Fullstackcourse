@@ -1,0 +1,18 @@
+title Exercise 0.6 (newnoteinspa)
+note over Browser:
+Form data entered and submitted
+end note
+note over Browser:
+data handled by JS code event handler 
+of the form (on submission), JS code 
+stops default execution
+and add the data to the document.notes 
+and sends the data to server
+end note
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa (with form data)
+note over Server:
+Server pushes the data to notes
+end note
+Server->Browser: Status code: 201
+
+
